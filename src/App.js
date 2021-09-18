@@ -50,7 +50,7 @@ function App() {
     <Router>
       <div style={styles}>
         <Navbar title="Todos List" />
-        <Switch>
+        {/* <Switch> */}
           <Route
             exact
             path="/"
@@ -63,6 +63,7 @@ function App() {
               );
             }}
           ></Route>
+          <Switch>
           <Route
             exact
             path="/about"
